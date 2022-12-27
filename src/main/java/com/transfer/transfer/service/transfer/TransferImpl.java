@@ -28,8 +28,8 @@ public class TransferImpl implements TransferService {
     @Override
     @Transactional
     public Transfer post(TransferDTO transferDTO) {
-        Account senderAccount = accountRepository.findById(transferDTO.getSenderAccountId()).orElseThrow(() -> new NotFoundObject("Sender Account ID Not Found"));
-        Account receiverAccount = accountRepository.findById(transferDTO.getReceiverAccountId()).orElseThrow(() -> new NotFoundObject("Receiver Account ID Not Found"));
+        Account senderAccount = accountRepository.findOneById(transferDTO.getSenderAccountId()).orElseThrow(() -> new NotFoundObject("Sender Account ID Not Found"));
+        Account receiverAccount = accountRepository.findOneById(transferDTO.getReceiverAccountId()).orElseThrow(() -> new NotFoundObject("Receiver Account ID Not Found"));
 
         BigDecimal senderAccountBalance = senderAccount.getBalance();
         BigDecimal transferAmount = transferDTO.getAmount();
