@@ -3,7 +3,7 @@ package com.transfer.transfer.controller;
 import com.transfer.transfer.model.customer.Customer;
 import com.transfer.transfer.model.customer.CustomerDTO;
 import com.transfer.transfer.model.customer.CustomerUpdateDTO;
-import com.transfer.transfer.service.customer.CostumerService;
+import com.transfer.transfer.service.customer.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("customers")
 @RequiredArgsConstructor
 public class CustomerController {
-    private final CostumerService costumerService;
+    private final CustomerService costumerService;
 
     @GetMapping
     public List<Customer> listCostumer() {

@@ -3,7 +3,6 @@ package com.transfer.transfer.service.customer;
 import com.transfer.transfer.enums.Status;
 import com.transfer.transfer.error.BadRequestValue;
 import com.transfer.transfer.error.NotFoundObject;
-import com.transfer.transfer.model.account.Account;
 import com.transfer.transfer.model.customer.Customer;
 import com.transfer.transfer.model.customer.CustomerDTO;
 import com.transfer.transfer.model.customer.CustomerUpdateDTO;
@@ -18,8 +17,8 @@ import java.util.List;
 
 @AllArgsConstructor
 @Service
-public class CustomerServiceImpl implements CostumerService {
-    public final CustomerRepository customerRepository;
+public class CustomerServiceImpl implements CustomerService {
+    private final CustomerRepository customerRepository;
     private final AccountRepository accountRepository;
 
     @Transactional

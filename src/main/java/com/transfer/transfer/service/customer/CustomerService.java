@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public interface CostumerService {
+public interface CustomerService {
     Customer get(Long id);
 
     List<Customer> getAll();
