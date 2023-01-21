@@ -37,3 +37,14 @@ You are free to reach other endpoints.
 ## Swagger Integration
 https://transfer-seza.herokuapp.com/swagger-ui.html
 
+
+
+## Scenario
+- [x] New customers can be defined with name, surname, identification number and email in the system, existing customers can be updated except identification number or deleted.
+- [x] Account can be created for a user with balance and currency
+- [x] Transfer balance between two accounts if they have the same currency, otherwise send an error.  
+- [x] If transfer is between different users, response informative note.
+
+- [x] Making some services private for authenticated user
+- [x] Swagger Integration
+- [x] Deploying code to somewhere (Heroku, AWS, DigitalOcean etc.)
