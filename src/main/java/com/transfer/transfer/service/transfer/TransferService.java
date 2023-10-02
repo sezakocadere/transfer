@@ -1,7 +1,7 @@
 package com.transfer.transfer.service.transfer;
 
-import com.transfer.transfer.model.transfer.Transfer;
-import com.transfer.transfer.model.transfer.TransferDTO;
+import com.transfer.transfer.entity.Transfer;
+import com.transfer.transfer.dto.transfer.TransferDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,7 +1,6 @@
-package com.transfer.transfer.model.account;
+package com.transfer.transfer.entity;
 
 import com.transfer.transfer.enums.Status;
-import com.transfer.transfer.model.customer.Customer;
 import lombok.Data;
 
 import javax.persistence.*;

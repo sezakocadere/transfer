@@ -1,8 +1,8 @@
 package com.transfer.transfer;
 
 import com.transfer.transfer.enums.Status;
-import com.transfer.transfer.model.customer.Customer;
-import com.transfer.transfer.model.customer.CustomerUpdateDTO;
+import com.transfer.transfer.entity.Customer;
+import com.transfer.transfer.dto.customer.CustomerUpdateDTO;
 import com.transfer.transfer.repository.AccountRepository;
 import com.transfer.transfer.repository.CustomerRepository;
 import com.transfer.transfer.service.customer.CustomerService;

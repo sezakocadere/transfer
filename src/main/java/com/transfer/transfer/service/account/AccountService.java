@@ -1,7 +1,7 @@
 package com.transfer.transfer.service.account;
 
-import com.transfer.transfer.model.account.Account;
-import com.transfer.transfer.model.account.AccountDTO;
+import com.transfer.transfer.entity.Account;
+import com.transfer.transfer.dto.account.AccountDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

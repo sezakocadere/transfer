@@ -1,7 +1,7 @@
 package com.transfer.transfer.controller;
 
-import com.transfer.transfer.model.account.Account;
-import com.transfer.transfer.model.account.AccountDTO;
+import com.transfer.transfer.entity.Account;
+import com.transfer.transfer.dto.account.AccountDTO;
 import com.transfer.transfer.service.account.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
 package com.transfer.transfer.controller;
 
-import com.transfer.transfer.model.customer.Customer;
-import com.transfer.transfer.model.customer.CustomerDTO;
-import com.transfer.transfer.model.customer.CustomerUpdateDTO;
+import com.transfer.transfer.entity.Customer;
+import com.transfer.transfer.dto.customer.CustomerDTO;
+import com.transfer.transfer.dto.customer.CustomerUpdateDTO;
 import com.transfer.transfer.service.customer.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

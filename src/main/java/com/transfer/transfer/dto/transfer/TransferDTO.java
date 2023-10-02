@@ -1,6 +1,5 @@
-package com.transfer.transfer.model.transfer;
+package com.transfer.transfer.dto.transfer;
 
-import com.transfer.transfer.enums.Status;
 import com.transfer.transfer.enums.TransferType;
 import lombok.Data;
 

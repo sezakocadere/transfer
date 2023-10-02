@@ -1,4 +1,4 @@
-package com.transfer.transfer.model.customer;
+package com.transfer.transfer.dto.customer;
 
 import com.transfer.transfer.enums.Status;
 import lombok.Data;
