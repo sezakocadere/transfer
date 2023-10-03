@@ -9,6 +9,5 @@ import java.util.List;
 @Service
 public interface TransferService {
     Transfer post(TransferDTO transferDTO);
-
     List<Transfer> getAll();
 }
