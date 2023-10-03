@@ -1,7 +1,7 @@
-package com.transfer.transfer.model.transfer;
+package com.transfer.transfer.entity;
 
 import com.transfer.transfer.enums.TransferType;
-import com.transfer.transfer.model.account.Account;
+import com.transfer.transfer.entity.Account;
 import lombok.Data;
 
 import javax.persistence.*;

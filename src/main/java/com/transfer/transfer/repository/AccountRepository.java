@@ -1,7 +1,7 @@
 package com.transfer.transfer.repository;
 
 import com.transfer.transfer.enums.Status;
-import com.transfer.transfer.model.account.Account;
+import com.transfer.transfer.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.jpa.repository.Query;

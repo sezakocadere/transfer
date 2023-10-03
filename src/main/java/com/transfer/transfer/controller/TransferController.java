@@ -1,7 +1,7 @@
 package com.transfer.transfer.controller;
 
-import com.transfer.transfer.model.transfer.Transfer;
-import com.transfer.transfer.model.transfer.TransferDTO;
+import com.transfer.transfer.entity.Transfer;
+import com.transfer.transfer.dto.transfer.TransferDTO;
 import com.transfer.transfer.service.transfer.TransferService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
