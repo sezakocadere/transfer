@@ -23,7 +23,6 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public List<Account> getAllByCostumerId(Long costumerId) {
-        Customer customer = customerRepository.findById(costumerId).orElseThrow(() -> new NotFoundObject("Customer Not Found"));
         return accountRepository.getAllByCostumer(costumerId);
     }
 
