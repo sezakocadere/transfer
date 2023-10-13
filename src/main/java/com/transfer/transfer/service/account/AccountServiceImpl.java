@@ -40,6 +40,7 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public Account post(AccountDTO accountDTO) {
         Customer customer = customerRepository.findById(accountDTO.getCustomerId()).orElseThrow(() -> new NotFoundObject("Customer Not Found"));
+
         Account account = new Account();
         account.setBalance(accountDTO.getBalance());
         account.setCurrency(accountDTO.getCurrency());
